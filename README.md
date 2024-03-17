@@ -28,7 +28,7 @@ GOOGLE_API_KEY="your key here"
 
 ```python
 python3 sqlLite.py
-streamlit gemini.py
+streamlit run gemini.py
 ```
 
 ## Thanks

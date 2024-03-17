@@ -9,9 +9,9 @@ The app displays the sql data to users on a streamlit UI.
 ## Installation
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the packages.
-Run the setup file [setup.sh](https://github.com/rishi-srinivasan/text-to-sql-llm/blob/main/setup.sh) to create .env file, readme file, .gitignore.
+Run the setup file [setup.sh](https://github.com/rishi-srinivasan/text-to-sql-llm/blob/main/setup.sh) to create .env file.
 
-The setup file also populates .gitignore file, requirements file along with installing requirements.
+The setup file also installs the requirements from [requirements.txt](https://github.com/rishi-srinivasan/vector-embeddings-mongo-hf/blob/main/requirements.txt) file.
 
 ```bash
 sh setup.sh
@@ -30,3 +30,10 @@ GOOGLE_API_KEY="your key here"
 python3 sqlLite.py
 streamlit gemini.py
 ```
+
+## Thanks
+[Free Code Camp](https://www.freecodecamp.org)
+
+[Google Gemini](https://deepmind.google/technologies/gemini/#introduction)
+
+[Streamlit](https://streamlit.io/)

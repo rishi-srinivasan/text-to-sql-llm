@@ -1,13 +1,15 @@
 #! /bin/bash
 
-touch .env && touch README.md && touch requirements.txt && touch .gitignore
+touch .env
 
-echo "python-dotenv\streamlit\ngoogle-generativeai\nsqlite3" > requirements.txt
+#touch README.md && touch requirements.txt && touch .gitignore
 
-echo ".env\n.idea\nvenv/" > .gitignore
+#echo "python-dotenv\streamlit\ngoogle-generativeai\nsqlite3" > requirements.txt
+
+#echo ".env\n.idea\nvenv/" > .gitignore
 
 pip install -r requirements.txt
 
-pip freeze > requirements.txt
+#pip freeze > requirements.txt
 
 pip install --upgrade pip
